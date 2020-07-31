@@ -6,9 +6,16 @@
 @author         FrankS01
 @license	MIT
 ==/UserStyle== */
-
 @-moz-document url-prefix("https://web.getslowly.com/") {
 
+	/* Webpage loader */
+	
+.fullscreen-loader,
+.login-wrapper {
+	background-color: #121212;
+}
+	
+	
 	/* Main */
 	body {
 		color: #c4c4c4;
