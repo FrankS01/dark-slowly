@@ -1,9 +1,10 @@
 /* ==UserStyle==
 @name           Dark Slowly Web
-@namespace      github.com/openstyles/stylus
+@namespace      https://github.com/FrankS01
 @version        1.0.0
 @description    Dark theme for Slowly Web
 @author         FrankS01
+@license	MIT
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://web.getslowly.com/") {
