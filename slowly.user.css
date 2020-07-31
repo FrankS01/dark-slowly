@@ -6,16 +6,22 @@
 @author         FrankS01
 @license	MIT
 ==/UserStyle== */
-@-moz-document url-prefix("https://web.getslowly.com/") {
+@-moz-document url-prefix("https://web.getslowly.com/home"),
+url-prefix("https://web.getslowly.com/friend/"),
+url-prefix("https://web.getslowly.com/profile"),
+url-prefix("https://web.getslowly.com/store"),
+url-prefix("https://web.getslowly.com/stamps"),
+url-prefix("https://web.getslowly.com/settings"),
+url-prefix("https://web.getslowly.com/friends"),
+url-prefix("https://web.getslowly.com/about") {
 
 	/* Webpage loader */
-	
-.fullscreen-loader,
-.login-wrapper {
-	background-color: #121212;
-}
-	
-	
+	.fullscreen-loader,
+	.login-wrapper {
+		background-color: #121212;
+	}
+
+
 	/* Main */
 	body {
 		color: #c4c4c4;
@@ -254,5 +260,13 @@
 	/* Letter arriving map */
 	.map-overlay .map-overlay-wrapper {
 		background-color: #1e1e1e
+	}
+}
+
+@-moz-document url("https://web.getslowly.com/") {
+
+	/* Main */
+	.login-wrapper {
+		color: #121212;
 	}
 }
