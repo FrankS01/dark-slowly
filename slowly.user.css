@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           Dark Slowly Web
-@namespace      https://github.com/FrankS01/dark-slowly/
+@namespace      https://github.com/FrankS01
 @version        1.0.0
 @description    Dark theme for Slowly Web
 @author         FrankS01
@@ -151,6 +151,31 @@ url-prefix("https://web.getslowly.com/about") {
 	.bg-white {
 		background-color: #1e1e1e !important
 	}
+    
+    /* Typing a new letter */
+    
+    .editor-wrapper .editor, .editor-wrapper .editor .modal-header {
+        background-color: #282828;
+    }
+    
+    .editor-wrapper .editor .modal-content {
+        border: 1px solid #5a5a5a
+    }
+    
+    
+    .editor-wrapper .editor {
+        border-top: 1px solid #676767;
+    }
+    
+    
+    .btn-outline-dark {
+        background-color: #474747;
+        color: #fff;
+    }
+    
+    .modal-header {
+        border-bottom: 1px solid #5a5a5a
+    }
 
 	/* Categories */
 	.badge-tag {
