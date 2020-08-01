@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           Dark Slowly Web
-@namespace      https://github.com/FrankS01
+@namespace      https://github.com/FrankS01/dark-slowly/
 @version        1.0.0
 @description    Dark theme for Slowly Web
 @author         FrankS01
@@ -133,12 +133,20 @@ url-prefix("https://web.getslowly.com/about") {
 	}
 
 	.letter-sm .card-footer {
-		background-color: #1e1e1e
+		background-color: #1e1e1e;
 	}
 
 	.letter-sm .card-header {
-		background-color: #1e1e1e
+		background-color: #1e1e1e;
 	}
+    
+    .letter-sm.future .card-body, .letter-sm.future .card-footer, .letter-sm.future .card-header {
+        background-color: #131313;
+    }
+    
+    .letter-sm.future {
+        border: 1px dashed #444343;
+    }
 
 	.bg-white {
 		background-color: #1e1e1e !important
